@@ -1,0 +1,50 @@
+.program {
+  padding: 0 20px;
+}
+
+.program__list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.program__item {
+  background: #f2f2f2;
+  padding: 30px 20px 20px 20px;
+  margin-bottom: 20px;
+
+}
+
+.program__image {
+  position: relative;
+
+}
+
+.program__title {
+  position: relative;
+  font-family: $font-basic;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 37px;
+  text-transform: uppercase;
+  margin: 0 0 30px 70px;
+  padding: 0;
+}
+
+.program__text {
+  font-family: "Arial";
+  font-size: 14px;
+  line-height: 18px;
+  color: #444444;
+  margin: 0 33px 57px 20px;
+}
+
+.program__catalog {
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000000;
+  margin: 0 0 0 20px;
+}
