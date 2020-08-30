@@ -6,33 +6,23 @@
 
 .page-footer__logo {
   display: inline-block;
-  padding: 0 96px;
-  margin: 39px 0 56px 0;
+}
+
+.page-footer__social {
+  margin-bottom: 20px;
+}
+
+@media (min-width: $tablet-width) {
+  .page-footer {
+    display: flex;
+    align-items: center;
+    padding: 60px 30px;
+  }
 
 }
 
-.page-footer__socials {
-    margin-bottom: 20px;
-}
-
-.social__list {
-  list-style: none;
-  padding: 0 97px 0 93px;
-  margin: 0;
-  display: flex;
-  box-sizing: border-box;
-  justify-content: space-between;
-
-
-}
-
-.copyright__link {
-font-family: "Arial", sans-serif;
-font-weight: normal;
-font-size: 16px;
-line-height: 18px;
-color: #444444;
-
-margin: 0 187px 32px 0;
-text-decoration: none;
+@media (min-width: $desktop-width) {
+  .page-footer {
+    padding: 60px 30px;
+  }
 }

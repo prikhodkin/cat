@@ -20,7 +20,6 @@
 
 .promo__wrapper {
   padding: 25px 20px 0 20px;
-
 }
 
 .promo__title {
@@ -33,6 +32,8 @@
 
 .promo__link {
   display: block;
+  font-size: 14px;
+  line-height: 18px;
   margin: 3px 0 22px 0;
 }
 
@@ -43,5 +44,86 @@
   margin-bottom: 35px;
 }
 
+@media (min-width: $tablet-width) {
+  .promo {
+    color: #000000;
+    background-image: none;
+    text-align: start;
 
+    &::after {
+      content: none;
+    }
+  }
 
+  .promo__wrapper {
+    padding: 0 30px;
+  }
+
+  .promo__title {
+    font-size: 68px;
+    line-height: 60px;
+    padding: 0 100px 0 85px;
+  }
+
+  .promo__slogan {
+    font-size: 20px;
+    line-height: 20px;
+    padding: 0 0 0 85px
+  }
+
+  .promo__link {
+    display: inline-block;
+    font-size: 20px;
+    line-height: 0;
+    padding: 14px 26px;
+    position: absolute;
+    left: 110px;
+    top: 230px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .promo {
+    min-height: 700px;
+    padding: 0 110px;
+    margin-bottom: 80px;
+    color: #000000;
+
+    &::after {
+      content: "";
+      width: 50vw;
+      height: 100%;
+      position: absolute;
+      right: 0;
+      top: 0;
+      left: auto;
+      background-image: url("../../img/index-background-desktop.jpg");
+      background-repeat: no-repeat;
+      background-color: #68b738;
+      background-size: cover;
+    }
+  }
+
+  .promo__wrapper {
+    width: 40%;
+    padding: 175px 0 160px 0;
+  }
+
+  .promo__title {
+    padding: 0;
+  }
+
+  .promo__slogan {
+    padding: 0;
+  }
+
+  .promo__link {
+    position: static;
+  }
+
+  .promo__img {
+    position: absolute;
+    left: 56%;
+    right: 50%;
+  }
+}
