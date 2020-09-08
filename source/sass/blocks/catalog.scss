@@ -19,16 +19,27 @@
     padding: 0 30px;
   }
 
+  .catalog__item {
+    background-color: #f2f2f2;
+    padding: 40px 36px;
+  }
+
+  .catalog__item--all {
+    background-color: #ffffff;
+    border: 2px solid #f2f2f2;
+  }
+
   .catalog__title {
     font-size: 60px;
     line-height: 60px;
     border: none;
     margin-bottom: 120px;
+    padding: 0;
   }
 
   .catalog__list {
     display: grid;
-    grid-template-columns: repeat(2, auto);
+    grid-template-columns: 1fr 1fr;
     column-gap: 60px;
     row-gap: 140px;
   }
@@ -40,9 +51,8 @@
   }
 
   .catalog__list {
-    display: grid;
-    grid-template-columns: repeat(4, auto);
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 80px;
-    row-gap: 145px;
+    row-gap: 144px;
   }
 }

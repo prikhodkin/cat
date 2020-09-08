@@ -20,7 +20,17 @@
 
 @media (min-width: $desktop-width) {
   .page-header {
-    flex-direction: row;
     padding: 55px 110px;
   }
+
+  .page-header--index {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+  }
+
+  .page-header__logo {
+    margin-right: 500px;
+  }
 }
+

@@ -93,12 +93,17 @@
       margin-right: 20px;
     }
 
+    .advantages__text {
+      padding-right: 73px;
+    }
+
     .advantages__text--one {
       &::before {
         content: "1";
+        font-family: $font-basic;
         position: absolute;
         font-size: 280px;
-        left: auto;
+        left: 125px;
         z-index: -1;
         color: #f2f2f2;
       }
@@ -107,6 +112,7 @@
     .advantages__text--two {
       &::before {
         content: "2";
+        font-family: $font-basic;
         position: absolute;
         font-size: 280px;
         left: auto;
@@ -118,6 +124,7 @@
     .advantages__text--three {
       &::before {
         content: "3";
+        font-family: $font-basic;
         position: absolute;
         font-size: 280px;
         left: auto;
@@ -129,6 +136,7 @@
     .advantages__text--four {
       &::before {
         content: "4";
+        font-family: $font-basic;
         position: absolute;
         font-size: 280px;
         left: auto;

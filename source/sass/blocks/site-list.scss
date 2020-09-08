@@ -17,9 +17,9 @@
   display: block;
   padding: 22px 0 24px 0;
   text-align: center;
-}
+  text-decoration: none;
+  color: #111111;
 
-.site-list__link {
   &:hover {
     opacity: 0.6;
   }
@@ -44,7 +44,7 @@
   .site-list__item {
     border: none;
     margin: 0;
-    margin-right: 34px;
+    margin-left: 23px;
   }
 
   .site-list__link {
@@ -63,9 +63,8 @@
     width: 478px;
   }
 
-  .site-list__link {
+  .site-list__link--index {
     color: #ffffff;
     border-color: #ffffff;
   }
 }
-
