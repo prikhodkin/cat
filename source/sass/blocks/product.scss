@@ -83,7 +83,7 @@
 
 .product-card__link--image {
   line-height: 0;
-  margin: 30px 0 0 50px;
+  margin: 30px 0 0 auto
 }
 
 .product-card__name {
@@ -99,6 +99,7 @@
   .product-card {
     padding: 0;
     position: relative;
+    border: none;
   }
 
   .product-card__wrapper {

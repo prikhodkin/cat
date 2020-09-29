@@ -329,54 +329,84 @@
 
   </main>
 
-  <!-- <section class="aditional">
-      <h2 class="aditional__titile">Дополнительные товары</h2>
+  <section class="aditional">
+    <h2 class="aditional__title">Дополнительные товары</h2>
+    <div class="aditional__wrapper">
       <ul class="aditional__list">
-        <li class="adititonal__item">
-          <p class="aditional__name">Сахарозаменитель</p>
-          <p class="aditional__quantity">1 упаковка (100 г)</p>
-          <p class="aditional__price">200 Р.</p>
+        <li class="aditional__item">
+          <div class="aditional__block">
+            <a class="aditional__name" href="#">Сахарозаменитель</a>
+            <div class="aditional__info">
+              <p class="aditional__quantity">1 упаковка (100 г)</p>
+              <p class="aditional__price">200 Р.</p>
+            </div>
+          </div>
           <a href="#" class="button aditional__link">Заказать</a>
         </li>
-        <li class="adititonal__item">
-          <p class="aditional__name">Питьевая вода</p>
-          <p class="aditional__quantity">5 литров</p>
-          <p class="aditional__price">50 Р.</p>
+
+        <li class="aditional__item">
+          <div class="aditional__block">
+            <a class="aditional__name" href="#">Питьевая вода</a>
+            <div class="aditional__info">
+              <p class="aditional__quantity">5 литров</p>
+              <p class="aditional__price">50 Р.</p>
+            </div>
+          </div>
           <a href="#" class="button aditional__link">Заказать</a>
         </li>
-        <li class="adititonal__item">
-          <p class="aditional__name">Молоко</p>
-          <p class="aditional__quantity">1 литр</p>
-          <p class="aditional__price">100 Р.</p>
+
+        <li class="aditional__item">
+          <div class="aditional__block">
+            <a class="aditional__name" href="#">Молоко</a>
+            <div class="aditional__info">
+              <p class="aditional__quantity">1 литр</p>
+              <p class="aditional__price">100 Р.</p>
+            </div>
+          </div>
           <a href="#" class="button aditional__link">Заказать</a>
         </li>
-        <li class="adititonal__item">
-          <p class="aditional__name">Витамины</p>
-          <p class="aditional__quantity">1 упаковка (30 г)</p>
-          <p class="aditional__price">300 Р.</p>
+
+        <li class="aditional__item">
+          <div class="aditional__block">
+            <a class="aditional__name" href="#">Витамины</a>
+            <div class="aditional__info">
+              <p class="aditional__quantity">1 упаковка (30 г)</p>
+              <p class="aditional__price">300 Р.</p>
+            </div>
+          </div>
           <a href="#" class="button aditional__link">Заказать</a>
         </li>
       </ul>
-    </section>
+      <div class="aditional__gift">
+        <p class="aditional__gift-text">Закажите все и получите чехол для кота в подарок!</p>
+      </div>
+    </div>
+  </section>
 
-    <section class="gift">
-      <img class="gift__image" src="img/gift.svg" alt="Подарок">
-      <p class="gift__text">Закажите все и получите чехол для кота в подарок!</p>
-    </section>
-
-
-    <section class="contacts">
-      <p class="contacts__cooperation">Приглашаем к сотрудничеству дилеров!</p>
-      <p class="contacts__adress">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</p>
-
-    </section>
-
-    <section class="map">
-      <img class="map__image" src="img/map.png">
-    </section> -->
+  <section class="contacts">
+    <h2 class="visually-hidden">Контактная информация</h2>
+    <div class="contacts__wrapper contacts__wrapper--catalog">
+      <p class="contacts__cooperation">Приглашаем<br>к сотрудничеству дилеров!</p>
+      <p class="contacts__adress"><span class="contacts__street">ул. Большая Конюшенная, д. 19/8</span>
+        Санкт-Петербург</p>
+    </div>
+    <iframe class="contacts__map"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6037872533261!2d30.3208587157473!3d59.93871648187617!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1599833159111!5m2!1sru!2sru"
+      style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+  </section>
+  <picture>
+    <source type="image/webp" media="(min-width: 1260px)"
+      srcset="img/map-desktop@1x.webp 1x, img/map-desktop@2x.webp 2x">
+    <source type="image/webp" media="(min-width: 768px)" srcset="img/map-tablet@1x.webp 1x, img/map-tablet@2x.webp 2x">
+    <source type="image/webp" srcset="img/map-mobile@1x.webp 1x, img/map-mobile@2x.webp 2x">
+    <source media="(min-width: 1260px)" srcset="img/map-desktop@1x.png 1x, img/map-desktop@2x.png 2x">
+    <source media="(min-width: 768px)" srcset="img/map-tablet@1x.png 1x, img/map-mobile@2x.png 2x">
+    <img class="contacts__img" src="img/map-mobile@1x.png" srcset="img/map-mobile@2x.png 2x" alt="Карта">
+  </picture>
+  </main>
 
   <footer class="page-footer">
-    <a class="page-footer__logo logo">
+    <a class="page-footer__logo logo" href="#">
       <img class="logo__img" src="img/footer-logo.png" alt="Кэт энерджи">
     </a>
     <div class="page-footer__social social"></div>

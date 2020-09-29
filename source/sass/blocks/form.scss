@@ -1,0 +1,36 @@
+.form__wrapper {
+  padding: 0;
+  margin: 0 0 26px 0;
+  border: none;
+}
+
+.form__block {
+  font-family: $font-basic;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+  color: #444444;
+  border: none;
+  box-sizing: border-box;
+}
+
+.form__block--user {
+  padding: 0 20px;
+  margin-bottom: 23px;
+}
+
+.form__block--radio {
+  border-top: 1px solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
+  padding: 20px;
+}
+
+.form__title {
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 26px;
+padding: 0 20px;
+}
