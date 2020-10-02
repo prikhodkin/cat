@@ -9,7 +9,7 @@
   font-weight: normal;
   font-size: 16px;
   line-height: 18px;
-  padding: 0;
+  padding: 0 20px;
   margin: 0;
   text-transform: uppercase;
   color: #444444;
@@ -17,9 +17,8 @@
   box-sizing: border-box;
 }
 
-.form__block--user {
-  padding: 0 20px;
-  margin-bottom: 23px;
+.form__block--contact {
+  padding: 0;
 }
 
 .form__block--radio {
@@ -32,5 +31,63 @@
   font-weight: normal;
   font-size: 24px;
   line-height: 26px;
-padding: 0 20px;
+  width: 187px;
+  margin-bottom: 32px;
+  color: #000000;
+  text-transform: none;
+}
+
+.form__label {
+  margin-right: 14px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.form__field {
+  padding: 13px 15px;
+  margin-bottom: 13px;
+  border: 1px solid #e7e7e7;
+  box-sizing: border-box;
+  color: #444444;
+}
+
+.form__label--radio {
+  color: #222222;
+
+  &::before {
+    content: "";
+    width: 30px;
+    height: 30px;
+    border: 1px solid #cdcdcd;
+    border-radius: 50%;
+    box-sizing: border-box;
+    margin-right: 15px;
+  }
+
+  &::after {
+    content: "";
+    width: 13.5px;
+    height: 13.5px;
+    background-color: #68b738;
+    border-radius: 50%;
+    box-sizing: border-box;
+    position: absolute;
+    left: 9px;
+    display: none;
+  }
+}
+
+.form__comment {
+  padding: 12px 15px;
+  border: none;
+  width: 253px;
+  text-transform: uppercase;
+  color: #444444;
+}
+
+.form__comment-field {
+
+  border: 1px solid #e7e7e7;
+  box-sizing: border-box;
+  margin-bottom: 27px;
 }
