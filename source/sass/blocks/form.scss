@@ -61,6 +61,7 @@
     border: 1px solid #cdcdcd;
     border-radius: 50%;
     box-sizing: border-box;
+    padding-right: 25px;
     margin-right: 15px;
   }
 
@@ -86,8 +87,40 @@
 }
 
 .form__comment-field {
-
   border: 1px solid #e7e7e7;
   box-sizing: border-box;
   margin-bottom: 27px;
+}
+
+.form__line {
+  padding: 0;
+}
+
+.form__line--radio {
+  margin-bottom: 19px;
+}
+
+.form__line-button {
+margin: 0;
+}
+
+.form__label
+
+.form__button {
+  display: block;
+  width: 280px;
+  height: 40;
+  margin: 0 auto;
+  border: none;
+}
+
+.form__legend {
+  font-family: "Arial", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  padding: 21px 81px;
+  text-transform: none;
+  color: #000000;
+  display: block;
 }
