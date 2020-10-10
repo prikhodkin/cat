@@ -1,0 +1,30 @@
+.wrapper__border {
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #68b738;
+    left: 20px;
+    top: 15px;
+    z-index: -1;
+  }
+
+
+  @media (min-width: $tablet-width) {
+    position: relative;
+
+    &::before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 2px;
+      background-color: #68b738;
+      left: 0;
+      top: 20px;
+      z-index: -1;
+    }
+  }
+}

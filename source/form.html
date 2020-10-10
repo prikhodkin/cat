@@ -45,13 +45,13 @@
 
   <main class="page-main">
     <h1 class="visually-hidden">Подбор программы</h1>
-    <section class="selection">
-      <h2 class="selection__title">Подбор программы</h2>
-      <form class="selection__form form" action="#" method="post">
-        <p class="selection__description">Заполните анкету, и мы подберем
+    <section class="form__section">
+      <h2 class="form__selection-title">Подбор программы</h2>
+      <form class="form__selection" action="#" method="post">
+        <p class="form__selection-description">Заполните анкету, и мы подберем
           программу питания для вашего кота</p>
 
-        <div class="form__wrapper">
+        <div class="form__wrapper form__wrapper--user">
           <fieldset class="form__block form__block--user">
             <div class="form__line form__line--user">
               <label class="form__label form__label--user" for="cat-name">Имя:*</label>
@@ -84,17 +84,17 @@
           </fieldset>
         </div>
 
-        <div class="form__container form__container--contact">
-          <fieldset class="form__block form__block--contacts">
-            <legend class="form__title form__title--contact">Контактные данные (владельца кота)</legend>
+        <div class="form__wrapper form__wrapper--contact wrapper__border">
+          <fieldset class="form__block form__block--contact">
+            <legend class="form__title form__title--contact">Контактные данные<br>(владельца кота)</legend>
             <div class="form__block form__block--contact">
               <div class="form__line form__line--contact">
                 <label class="form__label form__label--contact" for="email-user">E-mail:*</label>
                 <div class="form__field-wrapper form__field-wrapper--email">
                   <input class="form__field form__field--contact" type="email" id="email-user" name="email"
                     placeholder="kuklachev@gmail.com">
-                  <!-- <svg class="form__icon form__icon--mail">
-                  </svg> -->
+                  <svg class="form__icon form__icon--mail">
+                  </svg>
                 </div>
               </div>
               <div class="form__line form__line--contact">
@@ -102,17 +102,17 @@
                 <div class="form__field-wrapper form__field-wrapper--tel">
                   <input class="form__field form__field--contact" type="etel" id="tel-user" name="tel"
                     placeholder="8 (960) 900-60-90">
-                  <!-- <svg class="form__icon form__icon--tel">
-                  </svg> -->
+                  <svg class="form__icon form__icon--tel">
+                  </svg>
                 </div>
               </div>
             </div>
           </fieldset>
         </div>
 
-        <div class="form__container form__container--comment">
+        <div class="form__wrapper form__wrapper--comment wrapper__border">
           <fieldset class="form__block form__block--comment">
-            <legend class="form__title">Коментарий</legend>
+            <legend class="form__title">Комментарий</legend>
             <div class="form__comment-field">
               <textarea class="form__comment" name="text" id="text" cols="30" rows="7"
                 placeholder="Расскажите обо всех повадках кота"></textarea>
@@ -120,10 +120,10 @@
           </fieldset>
         </div>
 
-        <div class="form__container form__container--additionally">
+        <div class="form__wrapper form__wrapper--additionally wrapper__border">
           <fieldset class="form__block form__block--additionally">
             <legend class="form__title form__title--additionally">Дополнительно</legend>
-            <ul class="form__additionally form__additionally--checkbox">
+            <ul class="form__block form__block--checkbox">
               <li class="form__line form__line--checkbox">
                 <input class="form__checkbox visually-hidden" type="checkbox" id="sweetener" name="sweetener" checked>
                 <label class="form__label form__label--checkbox" for="sweetener"><span
@@ -148,8 +148,8 @@
           </fieldset>
         </div>
 
-        <fieldset class="form__block">
-          <div class="form__line form__line-button">
+        <fieldset class="form__wrapper">
+          <div class="form__block form__block--button">
             <button class="form__button button" type="submit">Отправить заявку</button>
             <span class="form__legend">* — Обязательные поля</span>
           </div>
