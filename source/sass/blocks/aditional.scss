@@ -179,7 +179,8 @@
 
 @media (min-width: $desktop-width) {
   .aditional {
-    padding: 0 110px;
+    @include page-wrapper;
+    
   }
 
   .aditional__title {
@@ -199,6 +200,7 @@
     width: 896px;
     padding: 0;
     margin: 0;
+    flex-grow: 1;
   }
 
   .aditional__item {
@@ -246,6 +248,7 @@
     padding: 0 0 40px 0;
     margin: 0 0 0 80px;
     flex-direction: column;
+    flex-grow: 1;
     justify-content: flex-end;
     align-items: center;
 

@@ -82,13 +82,14 @@
 @media (min-width: $desktop-width) {
   .promo {
     min-height: 700px;
-    padding: 0 110px;
+    padding: 0;
+    padding-left: calc(50% - 610px);
     margin-bottom: 80px;
     color: #000000;
 
     &::after {
       content: "";
-      width: 50vw;
+      width: 50%;
       height: 100%;
       position: absolute;
       right: 0;

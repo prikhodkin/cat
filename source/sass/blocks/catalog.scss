@@ -14,6 +14,11 @@
   border-bottom: 1px solid #ebebeb;
 }
 
+.catalog__item:not(:last-child) {
+  border-bottom: 1px solid #ebebeb;
+  padding-bottom: 25px;
+}
+
 @media (min-width: $tablet-width) {
   .catalog {
     padding: 0 30px;
@@ -48,11 +53,12 @@
 
 @media (min-width: $desktop-width) {
   .catalog {
-    padding: 0 110px;
+    @include page-wrapper;
+    
   }
 
   .catalog__list {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(4, 1fr);
     column-gap: 80px;
     row-gap: 144px;
   }

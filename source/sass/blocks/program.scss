@@ -182,14 +182,14 @@
 
 @media (min-width: $desktop-width) {
   .program {
-    padding: 0 110px;
+    @include page-wrapper;
   }
 
   .program__list {
     display: grid;
-    grid-template-columns: repeat(2, 45%);
+    grid-template-columns: repeat(2, 47%);
     row-gap: 15px;
-    column-gap: 80px;
+    column-gap: 74px;
   }
 
   .program__item {

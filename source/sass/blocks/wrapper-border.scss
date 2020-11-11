@@ -11,10 +11,12 @@
     top: 15px;
     z-index: -1;
   }
+}
 
-
-  @media (min-width: $tablet-width) {
+@media (min-width: $tablet-width) {
+  .wrapper__border {
     position: relative;
+    padding: 0 70px;
 
     &::before {
       content: "";
@@ -28,3 +30,10 @@
     }
   }
 }
+
+@media (min-width: $desktop-width) {
+  .wrapper__border {
+    @include page-wrapper;
+  }
+}
+

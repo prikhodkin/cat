@@ -62,6 +62,7 @@
       width: 113px;
       height: 106px;
       background-image: url("../../img/map-pin-tablet.png");
+      background-repeat: no-repeat;
       top: 186%;
       left: 43%;
     }
@@ -69,6 +70,7 @@
 
   .contacts__wrapper {
     padding: 66px 70px 51px 70px;
+    background-color: #f2f2f2;
   }
 
   .contacts__img {
@@ -115,8 +117,10 @@
     height: 200px;
     box-sizing: border-box;
     padding: 66px 89px 51px 76px;
-    left: 100px;
     top: 88px;
+    z-index: 1;
+    margin-right: calc(50% - 610px);
+    margin-left: calc(50% - 610px);
   }
 
   .contacts__adress {

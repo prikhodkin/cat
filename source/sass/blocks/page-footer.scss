@@ -23,6 +23,6 @@
 
 @media (min-width: $desktop-width) {
   .page-footer {
-    padding: 60px 110px;
+    @include page-wrapper;
   }
 }
