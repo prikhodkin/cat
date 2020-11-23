@@ -8,8 +8,7 @@
   font-weight: normal;
   font-size: 36px;
   line-height: 40px;
-  margin: 0 0 35px 0;
-  padding: 27px 0 0 0;
+  padding: 33px 0 0 0;
 }
 
 .example__text {
@@ -26,7 +25,7 @@
   display: flex;
   justify-content: space-between;
   padding: 0;
-  margin: 0 0 25px 0;
+  margin: 0 0 6px 0;
   list-style: none;
 }
 
@@ -91,7 +90,6 @@
 
 .example__img {
   position: absolute;
-  margin-left: 20px;
 }
 
 .example__img--after {
@@ -102,14 +100,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-bottom: 25px;
 }
 
 .example__text-slider {
   font-size: 16px;
   line-height: 20px;
   text-transform: uppercase;
-  margin: 25px 10px 0 10px;
+  margin: 5px 15px 0 20px;
 }
 
 .example__label {
@@ -120,7 +117,7 @@
   box-sizing: border-box;
   border-radius: 6px;
   position: relative;
-  margin: 25px 0 0 0;
+  margin: 8px 0 0 0;
 
   &::before {
     content: "";
@@ -172,6 +169,7 @@
   .example__number {
     font-size: 30px;
     line-height: 37px;
+    text-transform: uppercase;
   }
 
   .example__description {
@@ -290,7 +288,7 @@
 
   .example__title {
     position: relative;
-    margin-bottom: 170px;
+    margin-bottom: 145px;
   }
 
   .example__blog {
@@ -301,8 +299,12 @@
   .example__blog--text {
     padding-left: calc(50% - 610px);
     margin: 0;
-    padding-top: 62px;
     background-color: #f2f2f2;
+  }
+
+  .example__slider {
+    padding: 0;
+    margin: -105px 0 0 123px;
   }
 
   .example__blog--slider {
@@ -322,6 +324,12 @@
   .example__text {
     max-width: 436px;
     margin-bottom: 70px;
+  }
+
+  .example__text-slider {
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 20px;
   }
 
   .example__description {

@@ -15,7 +15,7 @@
 
 .site-list__link {
   display: block;
-  padding: 22px 0 24px 0;
+  padding: 15px 0 29px 0;
   text-align: center;
   text-decoration: none;
   color: #111111;
@@ -49,6 +49,10 @@
 
   .site-list__link {
     padding: 0;
+  }
+
+  .site-list__link--index {
+    margin-right: 13px;
   }
 
   .site-list__link--active {
