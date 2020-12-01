@@ -1,0 +1,26 @@
+.logo {
+  margin-right: auto;
+  margin-bottom: 17px;
+
+  &[href]:hover {
+    opacity: 0.8;
+  }
+
+  &[href]:active {
+    opacity: 0.6;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .logo {
+    margin-right: 70px;
+  }
+}
+
+
+@media (min-width: $desktop-width) {
+  .logo {
+    margin-right: 399px;
+    margin-bottom: 0;
+ }
+}
