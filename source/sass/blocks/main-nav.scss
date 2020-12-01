@@ -77,6 +77,10 @@
     width: auto;
   }
 
+  .main-nav__list {
+    margin-top: 5px;
+  }
+
   .main-nav__toggle {
     display: none;
   }
@@ -87,5 +91,12 @@
 }
 
 @media (min-width: $desktop-width) {
-  
+  .main-nav {
+    margin-top: 12px;
+    margin-left: 116px;
+  }
+
+  .main-nav__list {
+    margin-top: 6px;
+  }
 }

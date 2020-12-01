@@ -108,7 +108,7 @@
 
   .program__item {
     background: #f2f2f2;
-    padding: 67px 55px 95px 53px;
+    padding: 63px 55px 73px 53px;
     margin-bottom: 30px;
   }
 
@@ -153,6 +153,7 @@
       position: absolute;
       left: auto;
       right: 36px;
+      top: 3px;
     }
   }
 
@@ -176,6 +177,10 @@
     line-height: 24px;
     margin: 0 0 48px 0;
     padding: 0;
+  }
+
+  .program__text--mass {
+    width: 342px;
   }
 }
 

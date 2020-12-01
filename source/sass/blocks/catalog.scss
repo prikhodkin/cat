@@ -8,15 +8,14 @@
   font-size: 36px;
   line-height: 36px;
   font-weight: normal;
-  padding: 30px 20px 40px 20px;
+  padding: 8px 20px 40px 20px;
   margin: -1px 0 0 0;
-  border-top: 1px solid #ebebeb;
   border-bottom: 1px solid #ebebeb;
 }
 
 .catalog__item:not(:last-child) {
   border-bottom: 1px solid #ebebeb;
-  padding-bottom: 25px;
+  padding-bottom: 22px;
 }
 
 @media (min-width: $tablet-width) {
@@ -39,31 +38,44 @@
     font-size: 60px;
     line-height: 60px;
     border: none;
-    margin-bottom: 120px;
+    margin-top: 17px;
+    margin-bottom: 165px;
     padding: 0;
+  }
+
+  .catalog__item:not(:last-child) {
+    padding-bottom: 38px;
   }
 
   .catalog__list {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 60px;
-    row-gap: 140px;
+    row-gap: 141px;
   }
 }
 
 @media (min-width: $desktop-width) {
   .catalog {
     @include page-wrapper;
-    
+  }
+
+  .catalog__title {
+    margin-top: 15px;
+    margin-bottom: 165px;
   }
 
   .catalog__list {
     grid-template-columns: repeat(4, 1fr);
     column-gap: 80px;
-    row-gap: 144px;
+    row-gap: 141px;
   }
 
   .catalog__item {
-    padding: 40px 25px;
+    padding: 30px 37px;
+  }
+
+  .catalog__item:not(:last-child) {
+    padding-bottom: 40px;
   }
 }

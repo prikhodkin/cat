@@ -15,8 +15,8 @@
 .contacts__wrapper {
   display: flex;
   align-items: center;
-  padding: 50px 20px 15px 20px;
-  background-color: #f2f2f2;
+  padding: 15px 20px 15px 20px;
+  background-color: #ffffff;
 }
 
 .contacts__cooperation {
@@ -69,7 +69,7 @@
   }
 
   .contacts__wrapper {
-    padding: 66px 70px 51px 70px;
+    padding: 60px 70px 51px 70px;
     background-color: #f2f2f2;
   }
 
@@ -84,7 +84,8 @@
   .contacts__cooperation {
     width: 171px;
     font-size: 20px;
-    line-height: 21px;
+    line-height: 25px;
+    margin-top: 8px;
   }
 
   .contacts__adress {
@@ -92,6 +93,7 @@
     font-size: 16px;
     line-height: 20px;
     text-align: right;
+    margin-top: -10px;
   }
 
   .contacts__street {
@@ -116,8 +118,8 @@
     width: 570px;
     height: 200px;
     box-sizing: border-box;
-    padding: 66px 89px 51px 76px;
-    top: 88px;
+    padding: 68px 85px 51px 76px;
+    top: 95px;
     z-index: 1;
     margin-right: calc(50% - 610px);
     margin-left: calc(50% - 610px);

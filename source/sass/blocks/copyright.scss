@@ -35,6 +35,16 @@
 @media (min-width: $tablet-width) {
   .copyright {
     min-width: 160px;
-    margin-right: 20px;
+  }
+
+  .copyright__link {
+    margin-top: -25px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .copyright__link {
+    margin-top: 0;
+    margin-left: -3px;
   }
 }

@@ -49,6 +49,8 @@
 
   .site-list__link {
     padding: 0;
+    margin-right: 12px;
+    padding-bottom: 5px;
   }
 
   .site-list__link--index {
@@ -65,6 +67,11 @@
     font-size: 20px;
     font-family: 30px;
     width: 478px;
+  }
+
+  .site-list__link {
+    margin-right: 13px;
+    padding-bottom: 7px;
   }
 
   .site-list__link--index {

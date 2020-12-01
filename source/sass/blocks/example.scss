@@ -1,6 +1,6 @@
 .example {
   background-color: #eaeaea;
-  padding: 0 20px;
+  padding: 0 20px 33px 20px;
 }
 
 .example__title {
@@ -8,7 +8,8 @@
   font-weight: normal;
   font-size: 36px;
   line-height: 40px;
-  padding: 33px 0 0 0;
+  padding: 44px 0 0 0;
+  margin: 0 0 34px 0;
 }
 
 .example__text {
@@ -134,12 +135,16 @@
 @media (min-width: $tablet-width) {
   .example {
     padding: 0 30px;
+    margin-bottom: 6px;
     background: #ffffff;
   }
 
   .example__title {
     font-size: 60px;
     line-height: 60px;
+    margin-bottom: 63px;
+    margin-top: 47px;
+    padding: 0;
   }
 
   .example__text {
@@ -184,7 +189,7 @@
 
   .example__price {
     font-size: 20px;
-    line-height: 20px;
+    line-height: 30px;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -198,9 +203,15 @@
   .example__slider-cat {
     display: flex;
     max-width: 768px;
-    min-height: 530px;
+    min-height: 561px;
     margin: 0 auto;
+    margin-top: 24px;
     padding: 0;
+  }
+
+  .example__text-slider {
+    font-size: 20px;
+    margin: 5px 25px 0 20px;
   }
 
   .example__blog--slider {
@@ -219,6 +230,7 @@
 
   .example__img {
     display: block;
+    margin-left: -18px;
   }
 
   .example__img--before {
@@ -232,7 +244,7 @@
     box-sizing: border-box;
     border-radius: 6px;
     position: relative;
-    margin: 25px 0 0 0;
+    margin: 10px 0 0 0;
     cursor: pointer;
 
     &::before {
@@ -264,15 +276,20 @@
   .example__button {
     display: none;
   }
+
+  .example__image {
+    margin-top: 30px;
+  }
 }
 
 @media (min-width: $desktop-width) {
   .example {
     display: flex;
     padding: 0;
-    min-height: 660px;
+    min-height: 597px;
     background-color: #f2f2f2;
     position: relative;
+    margin-bottom: -8px;
 
     &::before {
       content: "";
@@ -286,9 +303,14 @@
     }
   }
 
+  .example__list {
+    margin-bottom: 24px;
+  }
+
   .example__title {
     position: relative;
-    margin-bottom: 145px;
+    margin-bottom: 147px;
+    margin-top: -8px;
   }
 
   .example__blog {
@@ -304,7 +326,12 @@
 
   .example__slider {
     padding: 0;
-    margin: -105px 0 0 123px;
+    margin: -105px 0 0 100px;
+  }
+
+  .example__slider-cat {
+    margin-top: -42px;
+    margin-left: -20px;
   }
 
   .example__blog--slider {
@@ -329,7 +356,7 @@
   .example__text-slider {
     font-size: 20px;
     line-height: 30px;
-    margin-top: 20px;
+    margin: 5px 25px 0 20px;
   }
 
   .example__description {
@@ -352,9 +379,15 @@
   .example__image {
     min-height: 100%;
     height: inherit;
+    margin-left: 48px;
+    margin-top: -31px;
   }
 
   .example__img {
     position: relative;
+  }
+
+  .example__label {
+    margin-top: 10px;
   }
 }

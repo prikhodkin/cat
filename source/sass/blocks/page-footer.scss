@@ -16,13 +16,14 @@
   .page-footer {
     display: flex;
     align-items: center;
-    padding: 60px 30px;
+    padding: 45px 30px;
   }
 
 }
 
 @media (min-width: $desktop-width) {
   .page-footer {
+    padding-top: 54px;
     @include page-wrapper;
   }
 }
